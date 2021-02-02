@@ -4,12 +4,12 @@ h1 {
 }
 
 p {
-    font font-family: "palatino";
+    font font-family: "comic sans";
     text-indent: 20px;
     margin-left: 10px;
 }
 
-#content {sth sth sth}  
+#content {
     background-color: #cccccc;
     width: 500px;
     min-height: 300px;
