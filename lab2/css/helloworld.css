@@ -1,5 +1,8 @@
-h1 {
-    color: orange;
+body {
+  background-color: lightblue;
+}
+h1 { 
+      color: orange;
     font-size: 200%;
 }
 
