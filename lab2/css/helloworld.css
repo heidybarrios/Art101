@@ -1,9 +1,5 @@
-body {
-  background-color: lightblue;
-}
-<h1 style="color:blue;">
-<p style="color:red;">
-      color: orange;
+h1 {
+    color: orange;
     font-size: 200%;
 }
 
@@ -11,7 +7,7 @@ p {
     font-family: "comic sans";
     text-indent: 20px;
     margin-left: 10px;
-#content {sth sth sth}
+#content {
     background-color: #cccccc;
     width: 500px;
     min-height: 300px;
