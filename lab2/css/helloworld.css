@@ -1,7 +1,8 @@
 body {
   background-color: lightblue;
 }
-h1 {
+<h1 style="color:blue;">
+<p style="color:red;">
       color: orange;
     font-size: 200%;
 }
