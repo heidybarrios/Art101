@@ -2,6 +2,7 @@
 <html>
 <head>
 		<title> Lab 3 File Structure</title>
+		<link rel="stylesheet" type="text/css" href="css/helloworld.css"/>
 	</head>
 	<body>
 		<h1>File Structure and File TransferStuf</h1>
