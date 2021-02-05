@@ -20,11 +20,9 @@ body {
 
 #bio-pic {
   /* float: right; */
-  width: 50%;
-  height: 50%;
+  width: 10%;
+  height: 10%;
 }
-
-
 
 figcaption{
   font-size: 80%;
