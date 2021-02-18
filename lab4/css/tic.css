@@ -87,7 +87,7 @@ h2 {
 
 button {
   outline: none;
-  border: 4px solid yellow;
+  border: 4px solid green;
   padding: 10px 20px;
   font-size: 1rem;
   font-weight: bold;
@@ -97,7 +97,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background: blue;
+  background: green;
   color: white;
 }
 
