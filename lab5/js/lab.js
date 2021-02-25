@@ -1,21 +1,27 @@
 /*
  * Author:  Heidy Barrios
  * Created:   February 23,2021.
- * (c) Copyright by HB.
+ * Public Domain.
  */
 
 // Define Variables
-make = "Ford";
-model = "Bronco"
-color ="Blue"
-year= 1976;
+var make = "Ford";
+var model = "Bronco"
+var color ="Blue"
+var year = 1976;
+var ownIt = true;
+
+console.log(make);
+console.log(model);
+console.log(color);
+console.log(year);
+console.log(ownIt);
 
 //calculate
-age = 2021 - year;
+var age = 2021 - year;
 
-// output
-document.writeln("make: " + make + "<br>");
-document.writeln("model: " + model + "<bar>");
-document.writeln("color: " + color + "<bar>");
-document.writeln("year: " + year + "<bar>");
-document.writeln("age " + age + " years<bar>");
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model+ "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age+ "<br>");
