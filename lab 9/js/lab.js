@@ -1,8 +1,9 @@
 /*
-Author: Francisco Amezcua
-Date: 02/10/2021
+Author: Heidy Barrios
+Date: Feb 28,2021
 Public License
 */
+//using var output get elements.
 
 var outputEl = document.getElementById("output"); // Get element
 var new1El = document.createElement("p");
