@@ -1,20 +1,28 @@
-/*
-Author: Heidy Barrios
-Date: February 26, 2021
-Public License
-*/
+//Lab 10: Sort name
+//* Heidy Barrios
+// March 10, 2021
+// Public Domain
 
-//using var output get elements.
+function sortName() {
+  // get name from text box
+  var name = document.getElementById("user-name").value;
+  // split: Splits the string into an array of characters.
+  // sort: Sorts the array in lexicographic order.
+  //   function: If a and b are the same, make the same and sort them as if
+  //      its the same one.
+  // join: creates a returnable string of array elements.
+  name = name.split('').sort(function (a, b) {
+    if(a==b) {
+      return 0;
+    } else {
+      return a.localeCompare(b);
+    }
+  }).join('');
 
+  // write to output div
+  document.getElementById("output").innerHTML = name;
+  return name;
+}
 
-var outputEl = document.getElementById("output"); // Get element
-var new1El = document.createElement("p"); // Creates <p> element
-new1El.innerHTML = "What is going on here?!"; // Sets the P tag's text
-new1El.setAttribute("style","color: white"); // makes the p white
-var new2El = document.createElement("h3"); // creates <h3> element
-new2El.innerHTML ="This text is in an h3 tag!"; // set h3 text
-new2El.setAttribute("style","color: white"); // make h3 white
-outputEl.appendChild(new2El);
-outputEl.appendChild(new2El);
-
-document.writeln(outputEl);
+document.getElementById("my-button").addEventListener("click", sortName);
+document.getElementById("first").addEventListener("click" , changeBack);
