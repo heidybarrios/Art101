@@ -4,6 +4,7 @@
 // Public Domain
 //*
 
+// Thanks to Stack overflow I was able to complete https://stackoverflow.com/questions/6205258/jquery-dynamically-create-button-and-attach-event-handler
 $(document).ready(function() { // Choose document
   $('#challenge, #problems, #results').append( // Add buttons to each div w/ ID
     // Button creation
